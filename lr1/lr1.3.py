@@ -3,9 +3,9 @@ list_players = ["Маша", "Петя", "Саша", "Оля", "Кирилл", "�
 # TODO Разделите участников на две команды
 
 all_players = len(list_players)
-players_A = list_players[:3]
-players_B = list_players[3:]
-
+index = all_players / 2
+players_A = list_players[:index]
+players_B = list_players[index:]
 
 print(players_A)
 print(players_B)
